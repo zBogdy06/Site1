@@ -369,6 +369,15 @@
   margin-bottom:30px;
 
 }
+.stoc1 {
+  font-size:15px;
+  font-weight: normal;
+  font-family: 'Martian Mono', monospace;
+  color:rgb(255, 0, 0);
+  margin-top:30px;
+  margin-bottom:30px;
+
+}
 .Recenzii {
   background-color: black;
   opacity:0.5;
