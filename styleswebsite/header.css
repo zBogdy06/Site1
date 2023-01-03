@@ -1,0 +1,154 @@
+html {
+  scroll-behavior: smooth;
+}
+.header {
+  display:flex;
+  flex-direction: row-reverse;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left:12px;
+  margin-right:12px;
+
+}
+.logo {
+  width:200px;
+  padding-left:10px;
+  padding-top:10px;
+}
+.poza {
+  max-width: 100%;
+  width:200px;
+}
+.middle-part {
+  display:flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width:600px;
+}
+
+.textmijlocontact {
+  text-decoration:none;
+  color:white;
+}
+.right-part {
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width:500px;
+}
+
+.name {
+  font-family: 'Quicksand', sans-serif;
+  color:white;
+  font-size:6em;
+  font-weight: bold;
+  text-decoration:none;
+  text-align: center;
+  margin-top:225px;
+}
+.Nume {
+  display:flex;
+  justify-content: center;
+  align-items:center;
+}
+.description {
+  color:white;
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+  font-size:2.5em;
+  font-weight: 500;
+  text-decoration: none;
+  line-height: 90px;
+  margin-top:30px;
+}
+.Descopera {
+  display:flex;
+  justify-content: center;
+}
+.Descriere {
+  display:flex;
+  justify-content: center;
+}
+.Discover {
+  background-color: rgb(92, 92, 235);
+  color:white;
+  font-size:2em;
+  font-weight: bold;
+  font-family: arial;
+  text-align: center;
+  padding:15px 30px;
+  border-radius: 20px;
+  cursor:pointer;
+  margin-top:30px;
+  text-decoration: none;
+  margin-bottom:500px;
+  transition: all  1s linear;
+}
+.Discover:hover {
+  
+  opacity:0.8;
+}
+
+.bear{
+  width:150px;
+  animation: bear-animation 1s linear infinite;
+  left:15%;
+  top:70%;
+  position:absolute;
+  animation-direction: alternate;
+}
+@keyframes bear-animation {
+  0%{
+    transform: translateY(0);
+    opacity:1;
+  }
+  100%{
+    transform: translateY(2vh);
+    opacity:1;
+  }
+}
+
+#preloader {
+  background:#c0d4fc url(/images/bee-preloader.gif) no-repeat  center center;
+  background-size:30%;
+  height: 100vh;
+  width:100%;
+  position: fixed;
+  z-index:100;
+
+}
+.honeyspoon{
+  width:100px;
+  left:40%;
+  top:20%;
+  position:absolute;
+  animation: honeyspoon-animate 8s linear infinite;
+  animation-direction: alternate;
+}
+@keyframes honeyspoon-animate {
+  0%{
+    transform: translateX(0);
+    opacity:1;
+  }
+  100%{
+    transform: translateX(30vh);
+    opacity:1;
+  }
+}
+.wave-line{
+  position:absolute;
+  right:10%;
+  top:90%;
+  animation: wave-line-animated 1s linear infinite;
+  animation-direction:  alternate;
+}
+@keyframes wave-line-animated {
+  0%{
+    transform: translateX(0);
+    opacity:1;
+  }
+  100%{
+    transform:translateX(3vh);
+    opacity:1;
+  }
+}
