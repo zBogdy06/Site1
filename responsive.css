@@ -220,11 +220,10 @@
   .floating-image{
     display:flex;
     flex-wrap: wrap;
-    width:300px;
+    width:350px;
     align-items: center;
     justify-content: center;
     position:static;
-    margin:auto;
   }
   .text-box{
     text-align: center;
