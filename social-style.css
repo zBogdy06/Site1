@@ -1,0 +1,124 @@
+*{
+  padding:0;
+  box-shadow: 0;
+  margin:0;
+  user-select: none;
+}
+body{
+  background: radial-gradient(ellipse at top, #ff32f5 0%, #000000 100%);
+}
+.product-display{
+  background:rgba(0,0,0,0.5);
+  height: 600px;
+  align-items: center;
+  text-align: center;
+  align-content: center;
+  border-radius:20px 0 0 20px;
+  width:300px;
+  padding:15px;
+}
+.product-img img{
+  width:300px;
+  margin-top:45px;
+}
+.product-img{
+background:none;
+margin-top:45px;
+}
+h1{
+  background:none;
+  color:#fff;
+  font-size:1.75em;
+  font-weight: bold;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold;
+  margin-top:125px;
+}
+p{
+  background:none;
+  color:#888888;
+  margin-top:10px;
+  font-weight: bold;
+  font-size:1.4em;
+  font-family: 'Poppins', sans-serif;
+}
+.header{
+  width:100%;
+  display:flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.buy{
+  display:flex;
+  width:100%;
+  justify-content: center;
+  margin-top:60px;
+}
+
+.info{
+  background: rgba(255, 255, 255, 1);
+  width:600px;
+  height: 600px;
+  border-radius: 0 20px 20px 0;
+  color:#3f3b3b;
+  text-align: center;
+}
+.info h1{
+  color:#3f3b3b;
+  text-align: center;
+  font-size:2em;
+  font-weight: bold;
+  margin-bottom:75px;
+}
+ul {
+  list-style: none;
+  line-height: 40px;
+  text-align: left;
+  margin-left:90px;
+  font-family: 'Poppins',sans-serif;
+}
+ul li:before {
+  content: '✓';
+  margin-right: 5px;
+}
+.button-buy{
+  width: 180px;
+  height: 50px;
+  border-radius:  10px;
+  background-color: transparent;
+  color: #000000;
+  position: relative;
+  overflow: hidden;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Quicksand', sans-serif;
+  border: 2px solid #64b4d4;
+  text-align: center;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.back-to-main{
+  position:absolute;
+  top:10px;
+  left:15px;
+  font-size:1.5em;
+  cursor:pointer;
+  text-decoration: none;
+  color:#fff;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold;
+}
+#preloader {
+  background:#2552FE url(images/preloader1.gif) no-repeat  center center;
+  background-size:30%;
+  height: 100vh;
+  width:100%;
+  position: fixed;
+  z-index:1001;
+}
